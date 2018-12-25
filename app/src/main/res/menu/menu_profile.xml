@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:context="com.mohammedfahadkaleem.whatsapp.ui.mainscreen.MainActivity">
+  <item
+    android:id="@+id/action_share"
+    android:title="@string/action_share"
+    app:showAsAction="never"/>
+  <item
+    android:id="@+id/action_edit"
+    android:title="@string/action_edit"
+    app:showAsAction="never"/>
+  <item
+    android:id="@+id/action_view_in_address_book"
+    android:title="@string/action_view_in_address_book"
+    app:showAsAction="never"/>
+  <item
+    android:id="@+id/action_verify_security_code"
+    android:title="@string/action_verify_security_code"
+    app:showAsAction="never"/>
+</menu>

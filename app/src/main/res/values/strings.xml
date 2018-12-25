@@ -1,0 +1,48 @@
+<resources>
+  <string name="app_name">Whatsapp</string>
+  <string name="tab_text_1">CHATS</string>
+  <string name="tab_text_2">STATUS</string>
+  <string name="tab_text_3">CALLS</string>
+  <string name="action_settings">Settings</string>
+  <string name="section_format">Hello World from section: %1$d</string>
+
+  <!-- Welcome Screen -->
+  <string name="agree_n_continue">Read our Privacy Policy. Tap \'Agree and continue\' to accept Terms of Service.</string>
+
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="dummy_message">This is a dummy message</string>
+  <string name="dummy_time">November 17,11:44 AM</string>
+  <string name="action_new_group">New group</string>
+  <string name="action_new_broadcast">New broadcast</string>
+  <string name="action_search">Search</string>
+  <string name="action_starred_messages">Starred messages</string>
+  <string name="action_whatsapp_web">WhatsApp Web</string>
+  <string name="action_status_privacy">Status privacy</string>
+  <string name="action_clear_call_log">Clear call log</string>
+  <string name="action_share">Share</string>
+  <string name="action_edit">Edit</string>
+  <string name="action_view_in_address_book">View in address book</string>
+  <string name="action_verify_security_code">Verify security code</string>
+  <string name="encryption_text">Messages to this chat and calls are secured with end-to-end encryption. Tap to verify.</string>
+  <string name="action_view_contact">View contact</string>
+  <string name="action_media">Media</string>
+  <string name="action_mute_notifications">Mute notifications</string>
+  <string name="action_wallpaper">Wallpaper</string>
+  <string name="action_more">More</string>
+  <string name="action_report">Report</string>
+  <string name="action_block">Block</string>
+  <string name="action_clear_chat">Clear chat</string>
+  <string name="action_export_chat">Export chat</string>
+  <string name="action_add_shortcut">Add shortcut</string>
+  <string name="type_your_message">Type a message</string>
+  <string name="dummy_status">*** no status ***</string>
+  <string name="account_privacy">Privacy</string>
+  <string name="account_security">Security</string>
+  <string name="account_two_step_verification">Two-step verification</string>
+  <string name="account_change_number">Change number</string>
+  <string name="account_request_account_info">Request account info</string>
+  <string name="account_delete_my_account">Delete my account</string>
+
+</resources>

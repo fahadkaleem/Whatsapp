@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string-array name="contact_names">
+    <item>Jon Snow</item>
+    <item>Khal Drogo</item>
+    <item>Daenerys Targaryen</item>
+    <item>Cersei Lannister</item>
+    <item>Tyrion Lannister</item>
+
+    <item>Sansa Stark</item>
+    <item>Petyr Baelish</item>
+    <item>Arya Stark</item>
+    <item>Margaery Tyrell</item>
+    <item>Daario Naharis</item>
+
+    <item>Melisandre</item>
+    <item>Jaime Lannister</item>
+    <item>Stannis Baratheon</item>
+    <item>Ygritte</item>
+    <item>Missandei</item>
+  </string-array>
+
+  <string-array name="contact_messages">
+    <item>If I fall, don\'t bring me back.</item>
+    <item>Anha vazhak maan rek me zala.</item>
+    <item>No one will take my dragons.</item>
+    <item>When you play the game of thrones, you win or you die.</item>
+    <item>That\'s what I do: I drink and I know things.</item>
+
+    <item>There is no honor in tricks.</item>
+    <item>Chaos isn\'t a pit. Chaos is a ladder.</item>
+    <item>A girl is Arya Stark of Winterfell. And I\'m going home.</item>
+    <item>I want to be the queen.</item>
+    <item>I trust all my men. Just as far as I can spit.</item>
+
+    <item>For the night is dark and full of terrors.</item>
+    <item>The things I do for love.</item>
+    <item>A good act does not wash out the bad, nor a bad the good.</item>
+    <item>You know nothing, Jon Snow.</item>
+    <item>The night is dark and full of terrors.</item>
+  </string-array>
+
+  <integer-array name="contact_images">
+    <item>@drawable/jon_snow</item>
+    <item>@drawable/khal_drogo</item>
+    <item>@drawable/daenerys_targaryen</item>
+    <item>@drawable/cersei_lannister</item>
+    <item>@drawable/tyrion_lannister</item>
+
+    <item>@drawable/sansa_stark</item>
+    <item>@drawable/petyr_baelish</item>
+    <item>@drawable/arya_stark</item>
+    <item>@drawable/margaery_tyrell</item>
+    <item>@drawable/daario_naharis</item>
+
+    <item>@drawable/melisandre</item>
+    <item>@drawable/jaime_lannister</item>
+    <item>@drawable/stannis_baratheon</item>
+    <item>@drawable/ygritte</item>
+    <item>@drawable/missandei</item>
+  </integer-array>
+
+  <string-array name="jon_snow_chat">
+    <item>I don\'t even know who my mother was</item>
+    <item>Some woman, no doubt. Most of them are. He favored Jon with a rueful grin. Remember this, boy. All dwarfs may be bastards, yet not all bastards need be dwarfs</item>
+    <item>Kill the boy, Jon Snow. Winter is almost upon us. Kill the boy and let the man be born.</item>
+    <item>The only time a man can be brave is when he is afraid.</item>
+  </string-array>
+
+  <integer-array name="read_receipts">
+    <item>@drawable/message_sent</item>
+    <item>@drawable/message_delivered</item>
+    <item>@drawable/message_read</item>
+  </integer-array>
+
+  <integer-array name="call_indicator">
+    <item>@drawable/call_incoming</item>
+    <item>@drawable/call_missed</item>
+    <item>@drawable/call_outgoing</item>
+  </integer-array>
+
+  <string-array name="status_times">
+    <item>53 minutes ago</item>
+    <item>10 minutes ago</item>
+    <item>Today, 8:47 AM</item>
+    <item>Today, 1:32 AM</item>
+    <item>Yesterday, 10:06 PM</item>
+  </string-array>
+</resources>

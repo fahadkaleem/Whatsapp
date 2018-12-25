@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:scrollbars="none"
+  android:scrollingCache="true">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+      android:id="@+id/settings_account"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:paddingLeft="@dimen/spacing_large"
+      android:paddingRight="@dimen/spacing_large"
+      android:background="?attr/selectableItemBackground"
+      android:clickable="true"
+      android:gravity="center_vertical"
+      android:minHeight="70dp"
+      android:orientation="horizontal">
+
+      <ImageButton
+        android:layout_width="@dimen/spacing_xmlarge"
+        android:layout_height="@dimen/spacing_xmlarge"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_settings_account"/>
+
+      <View
+        android:layout_width="@dimen/spacing_large"
+        android:layout_height="wrap_content"/>
+
+      <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginStart="@dimen/spacing_xxxxlarge"
+      android:layout_below="@id/settings_account"
+      android:background="@color/grey_10"/>
+
+    <LinearLayout
+      android:id="@+id/settings_chats"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/settings_account"
+      android:paddingLeft="@dimen/spacing_large"
+      android:paddingRight="@dimen/spacing_large"
+      android:background="?attr/selectableItemBackground"
+      android:clickable="true"
+      android:gravity="center_vertical"
+      android:minHeight="70dp"
+      android:orientation="horizontal">
+
+      <ImageButton
+        android:layout_width="@dimen/spacing_xmlarge"
+        android:layout_height="@dimen/spacing_xmlarge"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_settings_chat"/>
+
+      <View
+        android:layout_width="@dimen/spacing_large"
+        android:layout_height="wrap_content"/>
+
+      <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Chats"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginStart="@dimen/spacing_xxxxlarge"
+      android:layout_below="@id/settings_chats"
+      android:background="@color/grey_10"/>
+
+    <LinearLayout
+      android:id="@+id/settings_notifications"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/settings_chats"
+      android:paddingLeft="@dimen/spacing_large"
+      android:paddingRight="@dimen/spacing_large"
+      android:background="?attr/selectableItemBackground"
+      android:clickable="true"
+      android:gravity="center_vertical"
+      android:minHeight="70dp"
+      android:orientation="horizontal">
+
+      <ImageButton
+        android:layout_width="@dimen/spacing_xmlarge"
+        android:layout_height="@dimen/spacing_xmlarge"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_settings_notifications"/>
+
+      <View
+        android:layout_width="@dimen/spacing_large"
+        android:layout_height="wrap_content"/>
+
+      <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Notifications"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginStart="@dimen/spacing_xxxxlarge"
+      android:layout_below="@id/settings_notifications"
+      android:background="@color/grey_10"/>
+
+    <LinearLayout
+      android:id="@+id/settings_data"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/settings_notifications"
+      android:paddingLeft="@dimen/spacing_large"
+      android:paddingRight="@dimen/spacing_large"
+      android:background="?attr/selectableItemBackground"
+      android:clickable="true"
+      android:gravity="center_vertical"
+      android:minHeight="70dp"
+      android:orientation="horizontal">
+
+      <ImageButton
+        android:layout_width="@dimen/spacing_xmlarge"
+        android:layout_height="@dimen/spacing_xmlarge"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_settings_data"/>
+
+      <View
+        android:layout_width="@dimen/spacing_large"
+        android:layout_height="wrap_content"/>
+
+      <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Data and storage usage"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginStart="@dimen/spacing_xxxxlarge"
+      android:layout_below="@id/settings_data"
+      android:background="@color/grey_10"/>
+
+    <LinearLayout
+      android:id="@+id/settings_friends"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/settings_data"
+      android:paddingLeft="@dimen/spacing_large"
+      android:paddingRight="@dimen/spacing_large"
+      android:background="?attr/selectableItemBackground"
+      android:clickable="true"
+      android:gravity="center_vertical"
+      android:minHeight="70dp"
+      android:orientation="horizontal">
+
+      <ImageButton
+        android:layout_width="@dimen/spacing_xmlarge"
+        android:layout_height="@dimen/spacing_xmlarge"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_settings_contacts"/>
+
+      <View
+        android:layout_width="@dimen/spacing_large"
+        android:layout_height="wrap_content"/>
+
+      <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Invite a friend"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginStart="@dimen/spacing_xxxxlarge"
+      android:layout_below="@id/settings_friends"
+      android:background="@color/grey_10"/>
+
+    <LinearLayout
+      android:id="@+id/settings_help"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/settings_friends"
+      android:paddingLeft="@dimen/spacing_large"
+      android:paddingRight="@dimen/spacing_large"
+      android:background="?attr/selectableItemBackground"
+      android:clickable="true"
+      android:gravity="center_vertical"
+      android:minHeight="70dp"
+      android:orientation="horizontal">
+
+      <ImageButton
+        android:layout_width="@dimen/spacing_xmlarge"
+        android:layout_height="@dimen/spacing_xmlarge"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_settings_help"/>
+
+      <View
+        android:layout_width="@dimen/spacing_large"
+        android:layout_height="wrap_content"/>
+
+      <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Help"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        />
+    </LinearLayout>
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginStart="@dimen/spacing_xxxxlarge"
+      android:layout_below="@id/settings_help"
+      android:background="@color/grey_10"/>
+  </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

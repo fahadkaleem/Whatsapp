@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:context="com.mohammedfahadkaleem.whatsapp.ui.mainscreen.MainActivity">
+  <item
+    android:id="@+id/action_new_group"
+    android:title="@string/action_new_group"
+    app:showAsAction="never"/>
+  <item
+    android:id="@+id/action_new_broadcast"
+    android:title="@string/action_new_broadcast"
+    app:showAsAction="never"/>
+  <item
+    android:id="@+id/action_whatsapp_web"
+    android:title="@string/action_whatsapp_web"
+    app:showAsAction="never"/>
+  <item
+    android:id="@+id/action_starred_messages"
+    android:title="@string/action_starred_messages"
+    app:showAsAction="never"/>
+</menu>

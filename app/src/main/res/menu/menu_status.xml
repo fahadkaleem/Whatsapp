@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:context="com.mohammedfahadkaleem.whatsapp.ui.mainscreen.MainActivity">
+  <item
+    android:id="@+id/action_status_privacy"
+    android:title="@string/action_status_privacy"
+    app:showAsAction="never"/>
+</menu>
